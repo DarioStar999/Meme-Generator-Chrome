@@ -31,14 +31,13 @@ You can run this app as a local Chrome extension:
 
 ```json
 {
-  "manifest_version": 3,
-  "name": "Meme Generator",
-  "version": "1.0",
-  "description": "Generate random memes in one click",
-  "action": {
-    "default_popup": "index.html",
-    "default_icon": "src/images/icon.png"
-  }
+    "manifest_version":3,
+    "name":"Meme Generator",
+    "version":"1.0",
+    "description":"Meme Generator by DarioStar999",
+    "action": {
+        "default_popup": "popup.html"
+    } 
 }
 ```
 ## 📁 Folder Structure
