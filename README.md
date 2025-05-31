@@ -43,11 +43,10 @@ You can run this app as a local Chrome extension:
 ## 📁 Folder Structure
 ```
 src/
-├── images/       # Profile pics and social icons
-├── videos/       # Background video files
-├── css/
-│   └── style.css # Main stylesheet with smooth effects
-└── index.html    # Main HTML file to edit
+├── manifest.json   # Extension configuration file for Chrome
+├── popup.html      # Main popup UI with meme generator layout
+├── style.css       # Smooth and responsive styling for the popup
+└── popup.js        # JavaScript logic for meme generation and interactivity
 ```
 ## 🛠️ Technologies Used
 
